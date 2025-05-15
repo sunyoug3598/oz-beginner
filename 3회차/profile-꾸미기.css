@@ -1,0 +1,43 @@
+
+#first{
+    font-family: "Jua", sans-serif;
+}
+
+
+*{
+    text-align: center;
+}
+
+html{
+    background-color: #985b389f;
+    font-size: 16px;
+}
+
+body{
+    width: 640px;
+    margin: auto; /* 너비에서 남는 여백을 동일하게 분배 */
+}
+
+h1{
+    font-size: 48px;
+    font-family: "Jua", sans-serif;
+}
+
+h2{
+    font-family: "Jua", sans-serif;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+#first{
+    font-size: 1.5rem;
+}
+

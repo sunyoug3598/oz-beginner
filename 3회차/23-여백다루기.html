@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>여백 다루기</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+
+            margin: 10px 20px 30px 40px;
+            /* 
+            top bottom left right
+            */
+            padding-top: 20px;
+            padding-right: 50px;
+
+            box-sizing: content-box; 
+            /*
+            box-sizing: content-box; 
+            -> 콘텐츠가 유지, 여백에 따라 보더가 커짐
+            box-sizing: border-box;
+            -> 보더가 유지, 여백에 따라 콘텐츠가 작아짐
+            */
+
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
